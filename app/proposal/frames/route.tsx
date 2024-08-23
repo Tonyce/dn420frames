@@ -12,7 +12,7 @@ const handleRequest = frames(async (ctx) => {
   const inviteFid = ctx.searchParams?.inviteFid || "";
   const castHash = ctx.searchParams?.castHash || "";
   const imageUri = `${DEGENCAST_API}/3r-farcaster/cast-image?castHash=${castHash}`;
-  // console.log({ inviteFid, castHash, imageUri });
+  console.log({ inviteFid, castHash, imageUri });
   return {
     image: (
       <div tw="bg-[#4C2896] flex flex-col  items-center w-full h-full p-[32px]">

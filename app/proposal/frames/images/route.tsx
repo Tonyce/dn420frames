@@ -19,26 +19,26 @@ const imagesRoute = createImagesWorker({
       "1:1": { width: 800, height: 800 },
       "1.91:1": { width: 800, height: 418 },
     },
-    fonts: [
-      {
-        name: "Inter",
-        data: InterFont,
-        weight: 400,
-        style: "normal",
-      },
-      {
-        name: "Inter",
-        data: InterFontMedium,
-        weight: 500,
-        style: "normal",
-      },
-      {
-        name: "Inter",
-        data: InterBoldFont,
-        weight: 700,
-        style: "normal",
-      },
-    ],
+    // fonts: [
+    //   {
+    //     name: "Inter",
+    //     data: InterFont,
+    //     weight: 400,
+    //     style: "normal",
+    //   },
+    //   {
+    //     name: "Inter",
+    //     data: InterFontMedium,
+    //     weight: 500,
+    //     style: "normal",
+    //   },
+    //   {
+    //     name: "Inter",
+    //     data: InterBoldFont,
+    //     weight: 700,
+    //     style: "normal",
+    //   },
+    // ],
   },
 });
 
