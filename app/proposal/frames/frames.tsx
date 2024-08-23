@@ -16,31 +16,6 @@ const InterBoldFont = fs.readFileSync(
 export const frames = createFrames({
   basePath: "/proposal",
   baseUrl: process.env.FRAMES_BASE_URL,
-  imagesRoute: "/frames/images",
-  imageRenderingOptions: {
-    imageOptions: {
-      fonts: [
-        {
-          name: "Inter",
-          data: InterFont,
-          weight: 400,
-          style: "normal",
-        },
-        {
-          name: "Inter",
-          data: InterFontMedium,
-          weight: 500,
-          style: "normal",
-        },
-        {
-          name: "Inter",
-          data: InterBoldFont,
-          weight: 700,
-          style: "normal",
-        },
-      ],
-    },
-  },
   middleware: [
     imagesWorkerMiddleware({
       imagesRoute: "/frames/images",
